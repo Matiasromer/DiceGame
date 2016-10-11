@@ -9,6 +9,9 @@ namespace DiceGame
     {
         public void MyCode()
         {
+            // 420 sidet terning (meget høj terning)
+            Die dicefourtwenty = new Die(420);
+            dicefourtwenty.RollDie();
             //Die dicetusindudenforkop = new Die(1000);
             //dicetusindudenforkop.RollDie();
             //Console.WriteLine($"the value of the dice is {dicetusindudenforkop.GetValue()}");
